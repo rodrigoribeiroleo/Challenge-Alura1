@@ -1,13 +1,6 @@
+# 💻 Challenge-Alura 1 
 
-
-
-
-Código Responsivo;
-
-
-# 👩🏽‍💻 Challenge-Alura 1 - TextCODE
-
-#challengeonedecodificador4
+#codeTEXT
 
 ![Demonstracao](demonstracao.gif)
 
@@ -30,7 +23,7 @@ Desfaio: Desenvolver um decodificador de texto capaz de criptografar e descripto
 - Não devem ser utilizados letras com acentos nem caracteres especiais;
 - Deve ser possível converter uma sentença para a versão criptografada e também retornar uma sentença criptografada para a versão original;
 
-Por exemplo:
+Exemplo:
 
 `"gato" => "gaitober"`
 `"gaitober" => "gato"`
