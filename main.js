@@ -23,11 +23,11 @@ function criptografar() {
 
   var conteudoTextarea = entradaMensagem.value
   var resultadoCriptografado = conteudoTextarea
-    .replace("e", "enter")
-    .replace("i", "imes")
-    .replace("a", "ai")
-    .replace("o", "ober")
-    .replace("u", "ufat")
+    .replaceAll("e", "enter")
+    .replaceAll("i", "imes")
+    .replaceAll("a", "ai")
+    .replaceAll("o", "ober")
+    .replaceAll("u", "ufat")
 
   textoCodificado.innerHTML = resultadoCriptografado;
 
