@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width" initial-scale=1.0">
+        <title>TextCODE</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <header>
+            <div class="topo">
+                <img src="img/cadeado.png" width="240" height="80" alt="Logo Cadeado" class="logo">
+            
+                <div class="topo-icones">
+                    <a href="https://github.com/rodrigoribeiroleo" target="_blank">
+                    <img src="img/github.png" alt="GitHub" class="github"/></a>
+                    <a href="https://www.linkedin.com/in/rodrigo-ribeiro-dev/"
+                    target="_blank">
+                    <img src="img/linkedin.png" alt="LinkedIn" class="linkedin"/></a>
+                </div>
+            </div>
+        </header>
+
+        
+        <main>
+            <div class="entrada-texto">
+                <textarea id="texto" class="textarea" onkeyup="tudoMinusculo(this)" name="" id="" placeholder="Digite seu texto aqui*"></textarea>
+                <div class="botoes">
+                    <button class="criptografar">Criptografar</button>
+                    <button class="descriptografar">Descriptografar</button>
+                </div>
+            </div>
+  
+            <div class="resposta">
+                <div class="resposta-vazia">
+                    <img src="img/logo.png" alt="Imagem de um cadeado">
+                    <div class="texto-vazio">
+                        <h3>Nenhuma mensagem encontrada</h3>
+                        <p>Digite um texto que você deseja criptografar ou 
+                        descriptografar.</p>
+                    </div>
+                </div>
+                <div class="resposta-preenchida">
+                    <textarea class="texto-codificado" readonly> </textarea>
+                    <button class="botao-copia">Copiar</button>
+                </div>
+            </div>
+        </main>
+  
+        <footer>
+            <p>&#169; 2023 - Desenvolvido por Rodrigo Ribeiro</p>
+        </footer>
+    </body>
+    <script src="main.js"></script>
+</html>
